@@ -1,0 +1,17 @@
+#!/usr/bin/env node
+
+'use strict'
+
+var c = require("skilstak-colors");
+
+function randInt(min,max) {
+  return Math.floor((Math.random() * (max - min + 1));
+}
+
+var somerand1 = randInt(1,5)
+var somerand2 = randInt(1,10)
+var somerand3 = randInt(1,25)
+var somerand4 = randInt(1,50)
+var somerand5 = randInt(1,100)
+console.log("Rolled" + "max-5_"+c.r+somerand1+c.x+"_max-10_"+c.o+somerand2+c.x+"_max-25_"+c.y+somerand3+c.x+"_max-50_"+c.g+somerand4+c.x+"_max-10_"+c.b+somerand5+c.x+"_")
+

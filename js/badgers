@@ -1,0 +1,17 @@
+#!/usr/bin/env node
+
+var c = require("skilstak-colors");
+
+console.log(c.cl);
+
+for(var p = 1; p <= 4; p++) { 
+  for (var n = 1; n <= 12; n++) {
+  process.stdout.write(n + c.multi("badger "))
+  }
+  for (var n = 1; n <= 2; n++) {
+  process.stdout.write(n + c.multi("mushroom "))
+  }
+
+}
+process.stdout.write(n + c.multi("A SNAKE! "))
+

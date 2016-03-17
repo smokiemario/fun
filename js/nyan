@@ -1,0 +1,7 @@
+#!/usr/bin/env node
+
+var c = require("skilstak-colors")
+
+while (true) {
+  process.stdout.write(c.multi("nyan"))
+}
